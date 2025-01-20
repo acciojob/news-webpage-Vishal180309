@@ -1,21 +1,47 @@
-<header class="header">
-<h1>Shaw's News</h1>
-</header>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Use the semantic header tag -->
+    <header class="header">
+        <h1>Shwa's News</h1>
+    </header>
 
-<div class="latest-news-section">
-<h2><right>Latest News Articles</right></h2>
-<li>Article 1</li>
-<li>Article 2</li>
-<li>Article 3</li>
-</div>
+    <!-- News section -->
+    <div class="news">
+        <!-- Add an overarching section heading -->
+        <h2>News Highlights</h2>
 
-<div class="main-article">
-<h1> <center> Main Article</center></h1>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna eu fringilla malesuada, ipsum risus eleifend est, non feugiat quam augue euismod eros. Sed malesuada,magna eu fringilla malesuada, ipsum risus eleifend est, non feugiat quam angue euismod eros. 
+        <!-- Latest News Section -->
+        <section class="latest-news-section">
+            <h3>Latest News Articles</h3>
+            <ul>
+                <li><p class="article">Article 1</p></li>
+                <li><p class="article">Article 2</p></li>
+                <li><p class="article">Article 3</p></li>
+            </ul>
+        </section>
 
-<div class="pictorial-news-section">
-<h3>Pictorial News</h3>
-<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" alt="">
-<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" alt="Image two">
-<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" alt="Image three">
-</div>
+        <!-- Main Article Section -->
+        <section class="main-article-section">
+            <h3>Main Article</h3>
+            <p>Create a webpage layout that matches the provided image. Your HTML and CSS must contain the following: 
+            Use appropriate tags like header, div, h3, ul, li, h2, p, img. Style the header with the class .header 
+            and ensure it has center alignment, padding, and the provided background color.</p>
+        </section>
+
+        <!-- Pictorial News Section -->
+        <section class="pictorial-news-section">
+            <h3>Pictorial News</h3>
+            <div class="image-container">
+                <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" alt="Image One" />
+                <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" alt="Image Two" />
+                <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" alt="Image Three" />
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
